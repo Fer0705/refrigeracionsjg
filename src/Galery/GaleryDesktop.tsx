@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, SimpleGrid } from "@chakra-ui/react";
+import { Box, Grid, GridItem, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 
 type GaleryDesktopProps = {};
@@ -21,7 +21,8 @@ const GaleryDesktop: React.FC<GaleryDesktopProps> = () => {
     ];
     return (
         <>
-            <SimpleGrid minChildWidth="400px" spacing="40px">
+            <Text fontFamily={"fantasy"} textAlign={"center"} fontSize={"4xl"}>NUESTROS TRABAJOS</Text>
+            <SimpleGrid minChildWidth="400px" spacing="40px" >
                 {cards.map((url, index) => (
                     <Box
                         height={"md"}
@@ -33,6 +34,7 @@ const GaleryDesktop: React.FC<GaleryDesktopProps> = () => {
                         bgImage={url}
                         borderRadius="lg"
                         boxShadow={"dark-lg"}
+                        _hover={{ borderRadius: "30%", WebkitBorderRadius: "30%", boxShadow: "0px 0px 9px 9px #8ecae6", WebkitBoxShadow: "0px 0px 9px 9px #8ecae6", transform: "rotate(360deg)", WebkitTransform: "rotate(360deg)" }}
                     ></Box>
                 ))}
             </SimpleGrid>

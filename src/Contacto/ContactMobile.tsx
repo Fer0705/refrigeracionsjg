@@ -27,20 +27,20 @@ const ContactMobile: React.FC<ContactMobileProps> = () => {
           <Flex direction={"row"} justify="center">
             <a
               target="_blank"
-              href="mailto:desmandrilado17@gmail.com"
+              href="mailto:sebastiang.refrigeracion@gmail.com"
               rel="noreferrer"
             >
               <ListIcon _hover={{ color: "white" }} as={EmailIcon} color='blue.500' boxSize={"30px"} />
             </a>
-            <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"xl"} textAlign="center">
-              desmandrilado17@gmail.com
+            <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"md"} textAlign="center">
+              sebastiang.refrigeracion@gmail.com
             </Text>
           </Flex>
         </ListItem>
         <ListItem>
           <Flex direction={"row"}>
             <ListIcon _hover={{ color: "white" }} as={IoLocationSharp} color='blue.500' boxSize={"30px"} />
-            <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"xl"} textAlign="center">
+            <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"lg"} textAlign="center">
               Buenos Aires, Argentina
             </Text>
           </Flex>

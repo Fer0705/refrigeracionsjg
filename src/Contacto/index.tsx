@@ -59,13 +59,13 @@ export default function Contact() {
                       <Flex direction={"row"}>
                         <a
                           target="_blank"
-                          href="mailto:desmandrilado17@gmail.com"
+                          href="mailto:sebastiang.refrigeracion@gmail.com"
                           rel="noreferrer"
                         >
                           <ListIcon _hover={{ color: "white" }} as={EmailIcon} color='blue.500' boxSize={"40px"} />
                         </a>
                         <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"2xl"} textAlign="center">
-                          desmandrilado17@gmail.com
+                          sebastiang.refrigeracion@gmail.com
                         </Text>
                       </Flex>
                     </ListItem>
