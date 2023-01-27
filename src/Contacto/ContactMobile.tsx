@@ -27,13 +27,13 @@ const ContactMobile: React.FC<ContactMobileProps> = () => {
           <Flex direction={"row"} justify="center">
             <a
               target="_blank"
-              href="mailto:sebastiang.refrigeracion@gmail.com"
+              href="mailto:refrigeracionsjg@gmail.com"
               rel="noreferrer"
             >
               <ListIcon _hover={{ color: "white" }} as={EmailIcon} color='blue.500' boxSize={"30px"} />
             </a>
             <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"md"} textAlign="center">
-              sebastiang.refrigeracion@gmail.com
+              refrigeracionsjg@gmail.com
             </Text>
           </Flex>
         </ListItem>

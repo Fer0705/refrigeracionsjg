@@ -4,10 +4,6 @@ import {
   Box,
   Heading,
   IconButton,
-  Button,
-  VStack,
-  Stack,
-  HStack,
   Wrap,
   WrapItem,
   useBreakpointValue,
@@ -59,13 +55,13 @@ export default function Contact() {
                       <Flex direction={"row"}>
                         <a
                           target="_blank"
-                          href="mailto:sebastiang.refrigeracion@gmail.com"
+                          href="mailto:refrigeracionsjg@gmail.com"
                           rel="noreferrer"
                         >
                           <ListIcon _hover={{ color: "white" }} as={EmailIcon} color='blue.500' boxSize={"40px"} />
                         </a>
                         <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"2xl"} textAlign="center">
-                          sebastiang.refrigeracion@gmail.com
+                          refrigeracionsjg@gmail.com
                         </Text>
                       </Flex>
                     </ListItem>

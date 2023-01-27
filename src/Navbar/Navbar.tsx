@@ -2,29 +2,20 @@ import { ReactNode } from "react";
 import {
   Box,
   Flex,
-  Avatar,
   HStack,
   IconButton,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
-  useDisclosure,
   useColorModeValue,
   Stack,
   useColorMode,
   useBreakpointValue,
   Text,
-  Icon
 } from "@chakra-ui/react";
 import Image from 'next/image';
 import Link from 'next/link';
-import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
-import logo from '../../public/images/LOGO-SEBA-REFRIGERACION-removebg-preview.png'
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import Mobile from "./Mobile";
-import { AiOutlineHome } from 'react-icons/ai';
+import sjg from '../../public/images/logo-sjg.png'
+
 const Links = ["Servicios", "Contacto", "Galeria"];
 
 export default function Simple() {
@@ -41,7 +32,7 @@ export default function Simple() {
           <HStack spacing={8} alignItems={"center"} display={{ base: "none", md: "flex" }}>
             <Link href={"/"}>
               <Image
-                src={logo}
+                src={sjg}
                 width={250}
                 height={250}
                 alt="logo"

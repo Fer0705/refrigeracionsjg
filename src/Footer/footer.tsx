@@ -2,18 +2,16 @@ import {
     Box,
     chakra,
     Container,
-    Icon,
     Stack,
     Text,
     useColorModeValue,
     VisuallyHidden,
 } from '@chakra-ui/react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 import { ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link'
-import logo from '../../public/images/LOGO-SEBA-REFRIGERACION-removebg-preview.png'
-import { PhoneIcon } from '@chakra-ui/icons';
+import logo from '../../public/images/logo-sjg.png'
 
 const SocialButton = ({
     children,
@@ -71,13 +69,6 @@ export default function SmallWithLogoLeft() {
                     />
                 </Link>
                 <Stack direction={'row'} spacing={6}>
-                    {/* <SocialButton label={'Twitter'} href={'#'}>
-                        <FaTwitter />
-                    </SocialButton>
-                    <SocialButton label={'YouTube'} href={'#'}>
-                        <FaYoutube />
-                    </SocialButton> */}
-                    {/* <Icon mt={1.5} color="blue.500" as={PhoneIcon} boxSize={6} /> */}
                     <Text ml={"30px"} mt="0" fontWeight={"semibold"} fontSize={"xl"} textAlign="center">
                         11-3043-0020
                     </Text>

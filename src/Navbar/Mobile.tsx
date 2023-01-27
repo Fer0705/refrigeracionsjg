@@ -11,21 +11,17 @@ import {
     Flex,
 } from "@chakra-ui/react";
 import {
-    AddIcon,
     CloseIcon,
-    EditIcon,
     EmailIcon,
-    ExternalLinkIcon,
     HamburgerIcon,
     MoonIcon,
-    RepeatIcon,
     SettingsIcon,
     SunIcon,
     ViewIcon,
 } from "@chakra-ui/icons";
 import Image from 'next/image';
 import Link from 'next/link'
-import logo from '../../public/images/LOGO-SEBA-REFRIGERACION-removebg-preview.png'
+import logo from '../../public/images/logo-sjg.png'
 
 type Props = {};
 
